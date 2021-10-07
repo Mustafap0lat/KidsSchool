@@ -1,5 +1,7 @@
 :root{
    
+/*****Colours*****/
+
 --color-primary: plum;
    --color-secondary: slategrey;
     --color-success: gold;
@@ -8,11 +10,46 @@
     --color-danger: orangered;
     --color-light: lightcyan;
     --color-dark:dimgray;
-    --color-cozy: greenyellow;
+     --color-white: white;
+     --color-cyan: cyan;
+     --color-lime: limegreen;
+     --color-cozy: greenyellow;
+     --color-beige: beige;
     --color-transparent: transparent;
     --color-boder: seashell;
      --color-dark-transparent: rgba(0,0,0,0.2);
-    
+  
+     /****Display Size***/
+    --display--xxs: 1rem;
+    --dispay-xs: 1.4rem;
+    --display-sm:1.6rem;
+    --display-md:1.8rem;
+    --display-lg:2rem;
+    --display-xl:2.5rem;
+    --display-xxl:3rem;
+     
+/****Shadowss****/
+--shadow-small-light: .15rem .15rem 0 rgba(0,0,0,0.1);
+--shadow-large-light: .15rem .25rem 0 rgba(0,0,0,0.1);
 
 
 }
+
+/***Background Colours****/
+.bg-primary, .btn-primary {background-color: var(--color-primary);}
+.bg-secondary, .btn-secondary {background-color: var(--color-secondary);}
+.bg-success, .btn-success {background-color: var(--color-success);}
+.bg-info, .btn-info {background-color: var(--color-info);}
+.bg-warning, .btn-warning {background-color: var(--color-warning);}
+.bg-danger, .btn-danger {background-color: var(--color-danger);}
+.bg-light, .btn-light {background-color: var(--color-light);}
+.bg-dark, .btn-dark{background-color: var(--color-dark);}
+.bg-white, .btn-white{background-color: var(--color-white);}
+.bg-cyan, .btn-cyan{background-color: var(--color-cyan);}
+.bg-lime, .btn-lime{background-color: var(--color-lime);}
+.bg-cozy, .btn-cozy{background-color: var(--color-cozy);}
+.bg-beige, .btn-beige{background-color: var(--color-beige);}
+.bg-transparent, .btn-transparent{background-color: var(--color-transparent);}
+.bg-border, .btn-border{background-color: var(--color-boder);}
+.bg-dark-transparent, .btn-dark-transparent{background-color: var(--color-dark-transparent);}
+
