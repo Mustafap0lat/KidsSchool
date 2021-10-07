@@ -1,0 +1,18 @@
+:root{
+   
+--color-primary: plum;
+   --color-secondary: slategrey;
+    --color-success: gold;
+    --color-info: lightblue;
+    --color-warning: orange;
+    --color-danger: orangered;
+    --color-light: lightcyan;
+    --color-dark:dimgray;
+    --color-cozy: greenyellow;
+    --color-transparent: transparent;
+    --color-boder: seashell;
+     --color-dark-transparent: rgba(0,0,0,0.2);
+    
+
+
+}
