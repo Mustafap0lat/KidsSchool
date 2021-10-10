@@ -54,11 +54,13 @@
     --distance-8: 2rem;
     --distance-9: 2.25rem;
     --distance-10: 2.5rem;
-    --distance-11: 2.75rem;
-    --distance-12: 3.25rem;
-    --distance-13: 3.5rem;
-    --distance-14: 3.75rem;
-    --distance-15: 4rem;
+    --distance-11: 2.5rem;
+    --distance-12: 2.75rem;
+    --distance-13: 3rem;
+    --distance-14: 3.25rem;
+    --distance-15: 3.5rem;
+    --distance-16: 4rem;
+ 
         
     
    /*****************
@@ -78,6 +80,7 @@
    /****************
     ****Shadows*****
     ****************/
+    /**(0.1 gör så att skuggan blir "settad" till att ha 10% intensitet)**/
     --shadow-small-light: .15rem .15rem 0 rgba(0, 0, 0, 0.1);
     --shadow-large-light: .15rem .25rem 0 rgba(0, 0, 0, 0.1);
 }
@@ -161,3 +164,4 @@ body {
 .text-white {color: var(--color-white)}
 .text-cozy {color: var(--color-cozy)}
 .text-lime {color: var(--color-lime)}
+.text-cyan {color: var(--color-cyan)}
