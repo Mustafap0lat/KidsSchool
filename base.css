@@ -17,6 +17,8 @@
     --color-beige: beige;
     --color-transparent: transparent;
     --color-boder: seashell;
+    --color-purp: purple;
+    --color-blue: blue;
     --color-dark-transparent: rgba(0, 0, 0, 0.2);
     
     
@@ -134,7 +136,10 @@ body {
 .bg-beige, .btn-beige {background-color: var(--color-beige);}
 .bg-transparent {background-color: var(--color-transparent);}
 .bg-border, .btn-border {background-color: var(--color-boder);}
+.bg-purp, .btn-border {background-color: var(--color-purp);}
+.bg-blue, .btn-border {background-color: var(--color-blue);}
 .bg-dark-transparent {background-color: var(--color-dark-transparent);}
+
 
 /*****Border Colors*****/
 .border-color-primary {border-color: var(--color-primary)!important;}
@@ -149,7 +154,9 @@ body {
 .border-color-cozy {border-color: var(--color-cozy)!important;}
 .border-color-lime {border-color: var(--color-lime)!important;}
 .border-color-cyan {border-color: var(--color-cyan)!important;}
+.border-color-purp {border-color: var(--color-purp)!important;}
 .border-color-beige {border-color: var(--color-beige)!important;}
+.border-color-blue {border-color: var(--color-blue)!important;}
 
 
 /*****Text Colors*****/
@@ -165,3 +172,5 @@ body {
 .text-cozy {color: var(--color-cozy)}
 .text-lime {color: var(--color-lime)}
 .text-cyan {color: var(--color-cyan)}
+.text-purp {color: var(--color-purp)}
+.text-blue {color: var(--color-blue)}
