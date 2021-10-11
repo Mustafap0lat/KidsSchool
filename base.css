@@ -16,10 +16,10 @@
     --color-cozy: greenyellow;
     --color-beige: beige;
     --color-transparent: transparent;
-    --color-boder: seashell;
+    --color-border: seashell;
     --color-purp: purple;
     --color-blue: blue;
-    --color-dark-transparent: rgba(0, 0, 0, 0.2);
+    --color-dark-transparent: rgba(0, 0, 0, 0.2); /*20% transparant*/
     
     
     /*******************
@@ -136,8 +136,8 @@ body {
 .bg-beige, .btn-beige {background-color: var(--color-beige);}
 .bg-transparent {background-color: var(--color-transparent);}
 .bg-border, .btn-border {background-color: var(--color-boder);}
-.bg-purp, .btn-border {background-color: var(--color-purp);}
-.bg-blue, .btn-border {background-color: var(--color-blue);}
+.bg-purp, .btn-purp {background-color: var(--color-purp);}
+.bg-blue, .btn-blue {background-color: var(--color-blue);}
 .bg-dark-transparent {background-color: var(--color-dark-transparent);}
 
 
@@ -149,6 +149,7 @@ body {
 .border-color-warning {border-color: var(--color-warning)!important;}
 .border-color-danger {border-color: var(--color-danger)!important;}
 .border-color-light {border-color: var(--color-light)!important;}
+.border-color-border{border-color: var(--color-border)!important;}
 .border-color-dark {border-color: var(--color-danger)!important;}
 .border-color-white {border-color: var(--color-white)!important;}
 .border-color-cozy {border-color: var(--color-cozy)!important;}
@@ -174,3 +175,4 @@ body {
 .text-cyan {color: var(--color-cyan)}
 .text-purp {color: var(--color-purp)}
 .text-blue {color: var(--color-blue)}
+.text-border{color: var(--color-border);}

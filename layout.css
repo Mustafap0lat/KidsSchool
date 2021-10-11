@@ -8,6 +8,12 @@
 *****************/
 .position-relative{position: relative !important;} /*!important gör så att den blir starkast så att inte alla containrar får detta atribut med "3an"*/
 .position-absolute{position: absolute !important;}/*gör så att "3an" i vår shoppingcart hamnar rätt i shoppincarten*/
+.overflow-hidden{overflow: hidden;}
+.centerXY{ /*gör så att vi kan centrera vår test mitt i bilden/sidan*/
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /*gör så att den hamnar rätt i mitten och inte "65% åt ett håll förskjuter 50% bak och 50% upp*/
+}
 
 /*****************
 ******Margin******
@@ -54,6 +60,7 @@
 **** Typography ***
 ********************/
 .text-decoration-none{text-decoration: none;}
+.text-center{text-align: center;} /*Förskjuter texten så den blir centrerad, Kolla "School Website texten" */
 
 .text-size-xxs{font-size: var(--display--xxs);}
 .text-size-xs{font-size: var(--display--xs);}
@@ -88,7 +95,7 @@ padding: var(--distance-1) var(--distance-3);} /*gör så att "3an" hamnar upp i
 ****** Circle *****
 ********************/
 .circle{border-radius: 100%;}
-.shadow-sm{box-shadow: var(--shadow-small-light);}
+.shadow-sm{box-shadow: var(--shadow-small-light);} 
 
 
 /*******************
@@ -101,3 +108,21 @@ padding: var(--distance-1) var(--distance-3);} /*gör så att "3an" hamnar upp i
 ***** Images *****
 *****************/
 .logo-width {max-width: 13rem;}
+
+/*****************
+***** Images *****
+*****************/
+.slider-width{width: 400%;} /* 100% per image */
+.slider-container{width: 25%;}/* Displaya de första bilderna, 25% gör så att vi kan se alla 100/4=25 */
+.slider-image{width: 100%; object-fit: cover;} /*ser till så att bilderna oavsett storlek ska täcka upp hela bredden i slidern */
+/*.slider-animation{animation: 30s slider-keyframes infinite; } /*bilderna förskjuter sig i 30 sek, använder sig av @keyframes, infinite = loopar*/ 
+
+@keyframes slider-keyframes { /*hur mycket av bilden som ska visas över tidsrymden*/
+0%{left: 0%;}
+15%{left: -100%;}
+30%{left: -200%;} 
+45%{left: -300%;}
+60%{left: -200%;}
+75%{left: -100%;}
+100% {left: 0%;}
+}
