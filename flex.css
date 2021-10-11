@@ -12,7 +12,7 @@
 .flex-row{flex-direction: row;}
 .flex-row-reverse {flex-direction: row-reverse;}
 .flex-column{flex-direction: column;}
-
+.flex-wrap{flex-wrap: wrap;} /*Om innehållet inte får plats så kommer den att skjute ner "featursen" ikonerna till nästa rad */
 
 
 /***************************

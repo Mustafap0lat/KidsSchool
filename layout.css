@@ -1,7 +1,7 @@
 /*****************
 ***** Widths ****
 *****************/
-.max-widht{max-width: 192rem;}
+.max-width{max-width: 192rem;}
 
 /*****************
 ***** Position****
@@ -55,6 +55,9 @@
 .p-8{padding: var(--distance-8);}
 .p-12{padding: var(--distance-12);}
 .p-15{padding: var(--distance-15);}
+
+.pr-12, .px-12{padding-right: var(--distance-12);} /*Paddings för höger/vänster på sidan, px-12 lägger in dom i en och ger vänster/höger marginal i en class istället*/
+.pl-12, .px-12{padding-left: var(--distance-12);}
 
 /*******************
 **** Typography ***
@@ -126,3 +129,8 @@ padding: var(--distance-1) var(--distance-3);} /*gör så att "3an" hamnar upp i
 75%{left: -100%;}
 100% {left: 0%;}
 }
+
+/*****************
+**** Features ****
+*****************/
+.f-width{max-width: 33%;} /* 100/3 = 33, gör så att vi kan ha max 3 object/ikoner i rad genom att ge objektet en max bredd på 33%  
