@@ -55,7 +55,7 @@
 .p-5{padding: var(--distance-5);}
 .p-6{padding: var(--distance-6);}
 .p-8{padding: var(--distance-8);}
-.p-12{padding: var(--distance-12);}
+.p-12{padding: var(--distance-13);}
 .p-15{padding: var(--distance-15);}
 
 .pr-4, .px-4{padding-right: var(--distance-4);} /*Paddings för höger/vänster på sidan, px-12 lägger in dom i en och ger vänster/höger marginal i en class istället*/
