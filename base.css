@@ -118,10 +118,10 @@ body {
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-family: "Dosis", "Open Sans", sans-serif;
     font-weight: 700;
-    letter-spacing: .05rem;
-/**[.h1,=Classen h1,=Elementet]***/
-}
-.ht, h1 { font-size: var(--distance-13)32}
+    letter-spacing: .05rem;}
+    .ht, h1 { font-size: var(--distance-13);}  /**[.h1,=Classen h1,=Elementet]***/
+
+
 
 /***Background Colours****/
 .bg-primary, .btn-primary {background-color: var(--color-primary);}

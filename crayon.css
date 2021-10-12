@@ -1,6 +1,6 @@
 /*** Global property declaration ***/
 :root{
-    --crayon-height: 1.5;
+    --crayon-height: 1.5rem;
     --crayon-width: 6rem;
     --crayon-color: #237449;
     --crayon-paper-color:rgba(41,237,133,.6);
@@ -32,19 +32,19 @@
         ),
 
         linear-gradient(to right, 
-            transparent 22%, var(--crayon-line-color) 22%,
-            var(--crayon-line-color) 33%, transparent 33%
+            transparent 14%, var(--crayon-line-color) 14%,
+            var(--crayon-line-color) 17%, transparent 17%
         ),
         
         /* Vertical lines right side */
         linear-gradient(to right, 
-        transparent 22%, var(--crayon-line-color) 22%,
-        var(--crayon-line-color) 33%, transparent 33%
+        transparent 78%, var(--crayon-line-color) 78%,
+        var(--crayon-line-color) 81%, transparent 81%
         ),
 
         linear-gradient(to right, 
-            transparent 83%, var(--crayon-line-color) 83%,
-            var(--crayon-line-color) 86%, transparent 86%
+            transparent 84%, var(--crayon-line-color) 84%,
+            var(--crayon-line-color) 87%, transparent 87%
         ),
 
         /* Crayon paper*/
