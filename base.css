@@ -63,21 +63,8 @@
     --distance-15: 3.5rem;
     --distance-16: 4rem;
  
-        
+       
     
-   /*****************
-    ****Borders******
-    *****************/
-    /*[var=Variabel funktionen]*/
---border-xs-white: 0.1rem solid var(--color-white);
---border-xs: .1rem solid var(--color-light);
---border-sm: .2rem solid var(--color-light);
---border-lg: .4rem solid var(--color-white);
-
---border-radius-sm: .25rem;
---border-success: .2rem solid var(--border-color-success); 
---border-transparent: .1 solid var(--color-transparent); 
-
 
    /****************
     ****Shadows*****
@@ -85,6 +72,22 @@
     /**(0.1 gör så att skuggan blir "settad" till att ha 10% intensitet)**/
     --shadow-small-light: .15rem .15rem 0 rgba(0, 0, 0, 0.1);
     --shadow-large-light: .15rem .25rem 0 rgba(0, 0, 0, 0.1);
+
+    
+   /*****************
+    ****Borders******
+    *****************/
+    /*[var=Variabel funktionen]*/
+   --border-xs-white: 0.1rem solid var(--color-white);
+   --border-xs: .1rem solid var(--color-light);
+   --border-sm: .2rem solid var(--color-light);
+   --border-lg: .4rem solid var(--color-white);
+
+   --border-radius-sm: .25rem;
+   --border-success: .2rem solid var(--border-color-success); 
+   --border-transparent: .1 solid var(--color-transparent); 
+
+
 }
 
 * {
