@@ -1,333 +1,430 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,600,700|Open+Sans:300,400,600,700" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/f4bf10d3c2.js"></script>
 
-    <link href ="base.css" rel="stylesheet">
-    <link href ="flex.css" rel="stylesheet">
-    <link href ="layout.css" rel="stylesheet">
-    <link href ="crayon.css" rel="stylesheet">
-    <link href ="mediaqueries.css" rel="stylesheet">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,600,700|Open+Sans:300,400,600,700" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f4bf10d3c2.js"></script>
+
+  <link href="base.css" rel="stylesheet">
+  <link href="flex.css" rel="stylesheet">
+  <link href="layout.css" rel="stylesheet">
+  <link href="crayon.css" rel="stylesheet">
+  <link href="mediaqueries.css" rel="stylesheet">
 
 </head>
-<body>  
-<!-- Navigation -->
-<header>
-   <!-- Colored Bars -->
-   <div class="d-flex">
-    <div class ="flex-grow bg-warning bar-height"></div>
-   <div class ="flex-grow bg-success bar-height"></div>
-   <div class ="flex-grow bg-cyan bar-height"></div>
-   <div class ="flex-grow bg-lime bar-height"></div>  
-   <div class ="flex-grow bg-info bar-height"></div>
-   <div class ="flex-grow bg-primary bar-height"></div>
-   <div class ="flex-grow bg-warning bar-height"></div>
-   <div class ="flex-grow bg-success bar-height"></div>
-   <div class ="flex-grow bg-cyan bar-height"></div>
-   <div class ="flex-grow bg-lime bar-height"></div>  
-   <div class ="flex-grow bg-info bar-height"></div>
-   <div class ="flex-grow bg-primary bar-height"></div>
-   </div> 
 
-<nav class = "d-flex justify-content-between align-items-center mx-auto p-6">
-  <img class ="logo-width" src="images/logo-school.png">
-  <div class ="d-flex justify-content-between">
-    <a href="#" class="d-flex flex-column  align-items-center text-decoration-none">
-       <div class="d-flex align-items-center justify-content-between bg-cyan p-4 circle shadow-sm">
-          <i class ="fa fa-home text-white"></i>
-      </div>
-      <span class="text-cyan mt-4 lh-sm">Home</span>
-    </a> 
-    <a href="#" class="d-flex flex-column  align-items-center text-decoration-none">
-      <div class="d-flex align-items-center justify-content-between bg-primary p-4 circle shadow-sm">
-         <i class ="fa fa-home text-white"></i>
-     </div>
-     <span class="text-primary mt-4 lh-sm">Store</span>
-   </a> 
-   <a href="#" class="d-flex flex-column  align-items-center text-decoration-none">
-    <div class="d-flex align-items-center justify-content-between bg-lime p-4 circle shadow-sm">
-       <i class ="fa fa-home text-white"></i>
-   </div>
-   <span class="text-lime mt-4 lh-sm">Courses</span>
- </a> 
- <a href="#" class="d-flex flex-column  align-items-center text-decoration-none">
-  <div class="d-flex align-items-center justify-content-between bg-warning p-4 circle shadow-sm">
-     <i class ="fa fa-home text-white"></i>
- </div>
- <span class="text-warning mt-4 lh-sm">Blog</span>
-</a> 
-   
-  </div>
-  <div class ="d-flex justify-content-between ">
-    <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative">
-      <div class="d-flex align-items-center justify-content-between bg-purp border-radius p-4 shadow-sm">
-         <i class ="fa fa-shopping-basket text-white"></i>
-      </div>
-      <span class="text-white text-size-xxs position-absolute icon-badge border-small-white lh-sm circle bg-danger ">3</span>
-   </a> 
-   <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative">
-    <div class="d-flex align-items-center justify-content-between bg-blue border-radius p-4 shadow-sm">
-       <i class ="fa fa-bars text-white"></i>
+<body>
+  <!-- Navigation -->
+  <header>
+    <!-- Colored Bars -->
+    <div class="d-flex">
+      <div class="flex-grow bg-warning bar-height"></div>
+      <div class="flex-grow bg-success bar-height"></div>
+      <div class="flex-grow bg-cyan bar-height"></div>
+      <div class="flex-grow bg-lime bar-height"></div>
+      <div class="flex-grow bg-info bar-height"></div>
+      <div class="flex-grow bg-primary bar-height"></div>
+      <div class="flex-grow bg-warning bar-height"></div>
+      <div class="flex-grow bg-success bar-height"></div>
+      <div class="flex-grow bg-cyan bar-height"></div>
+      <div class="flex-grow bg-lime bar-height"></div>
+      <div class="flex-grow bg-info bar-height"></div>
+      <div class="flex-grow bg-primary bar-height"></div>
     </div>
-    
- </a> 
-  
-  </div> 
-</nav> 
 
-<!-- Colored Bars -->
-<div class="d-flex">
-    <div class ="flex-grow bg-warning bar-height"></div>
-   <div class ="flex-grow bg-success bar-height"></div>
-   <div class ="flex-grow bg-cyan bar-height"></div>
-   <div class ="flex-grow bg-lime bar-height"></div>  
-   <div class ="flex-grow bg-info bar-height"></div>
-   <div class ="flex-grow bg-primary bar-height"></div>
-   <div class ="flex-grow bg-warning bar-height"></div>
-   <div class ="flex-grow bg-success bar-height"></div>
-   <div class ="flex-grow bg-cyan bar-height"></div>
-   <div class ="flex-grow bg-lime bar-height"></div>  
-   <div class ="flex-grow bg-info bar-height"></div>
-   <div class ="flex-grow bg-primary bar-height"></div>
-</div>
+    <nav class="d-flex justify-content-between align-items-center mx-auto p-6">
+      <img class="logo-width" src="images/logo-school.png">
+      <div class="d-flex justify-content-between">
+        <a href="#" class="d-flex flex-column  align-items-center text-decoration-none">
+          <div class="d-flex align-items-center justify-content-between bg-cyan p-4 circle shadow-sm">
+            <i class="fa fa-home text-white"></i>
+          </div>
+          <span class="text-cyan mt-4 lh-sm">Home</span>
+        </a>
+        <a href="#" class="d-flex flex-column  align-items-center text-decoration-none">
+          <div class="d-flex align-items-center justify-content-between bg-primary p-4 circle shadow-sm">
+            <i class="fa fa-home text-white"></i>
+          </div>
+          <span class="text-primary mt-4 lh-sm">Store</span>
+        </a>
+        <a href="#" class="d-flex flex-column  align-items-center text-decoration-none">
+          <div class="d-flex align-items-center justify-content-between bg-lime p-4 circle shadow-sm">
+            <i class="fa fa-home text-white"></i>
+          </div>
+          <span class="text-lime mt-4 lh-sm">Courses</span>
+        </a>
+        <a href="#" class="d-flex flex-column  align-items-center text-decoration-none">
+          <div class="d-flex align-items-center justify-content-between bg-warning p-4 circle shadow-sm">
+            <i class="fa fa-home text-white"></i>
+          </div>
+          <span class="text-warning mt-4 lh-sm">Blog</span>
+        </a>
 
-<!-- Drop-down Nav (small devices) -->
-<div class ="mx-6 d-none">
-  <a href="#" class="d-flex align-items-center flex-row-reverse text-decoration-none p-6 border-bottom-xs">
-     <div class="d-flex align-items-center justify-content-between bg-cyan p-4 circle shadow-sm">
-        <i class ="fa fa-home text-white"></i>
+      </div>
+      <div class="d-flex justify-content-between ">
+        <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative">
+          <div class="d-flex align-items-center justify-content-between bg-purp border-radius p-4 shadow-sm">
+            <i class="fa fa-shopping-basket text-white"></i>
+          </div>
+          <span
+            class="text-white text-size-xxs position-absolute icon-badge border-small-white lh-sm circle bg-danger ">3</span>
+        </a>
+        <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative">
+          <div class="d-flex align-items-center justify-content-between bg-blue border-radius p-4 shadow-sm">
+            <i class="fa fa-bars text-white"></i>
+          </div>
+
+        </a>
+
+      </div>
+    </nav>
+
+    <!-- Colored Bars -->
+    <div class="d-flex">
+      <div class="flex-grow bg-warning bar-height"></div>
+      <div class="flex-grow bg-success bar-height"></div>
+      <div class="flex-grow bg-cyan bar-height"></div>
+      <div class="flex-grow bg-lime bar-height"></div>
+      <div class="flex-grow bg-info bar-height"></div>
+      <div class="flex-grow bg-primary bar-height"></div>
+      <div class="flex-grow bg-warning bar-height"></div>
+      <div class="flex-grow bg-success bar-height"></div>
+      <div class="flex-grow bg-cyan bar-height"></div>
+      <div class="flex-grow bg-lime bar-height"></div>
+      <div class="flex-grow bg-info bar-height"></div>
+      <div class="flex-grow bg-primary bar-height"></div>
     </div>
-    <span class="text-cyan mr-4">Home</span>
-  </a> 
-  <a href="#" class="d-flex align-items-center flex-row-reverse text-decoration-none p-6 border-bottom-xs">
-    <div class="d-flex align-items-center justify-content-between bg-primary p-4 circle shadow-sm">
-       <i class ="fa fa-home text-white"></i>
-   </div>
-   <span class="text-primary mr-4">Store</span>
- </a> 
- <a href="#" class="d-flex align-items-center flex-row-reverse text-decoration-none p-6 border-bottom-xs">
-  <div class="d-flex align-items-center justify-content-between bg-lime p-4 circle shadow-sm">
-     <i class ="fa fa-home text-white"></i>
- </div>
- <span class="text-lime mr-4">Courses</span>
-</a>
-<a href="#" class="d-flex align-items-center flex-row-reverse text-decoration-none p-6">
-<div class="d-flex align-items-center justify-content-between bg-warning p-4 circle shadow-sm">
-   <i class ="fa fa-home text-white"></i>
-</div>
-<span class="text-warning mr-4">Blog</span>
-</a> 
- 
-</div>
+
+    <!-- Drop-down Nav (small devices) -->
+    <div class="mx-6 d-none">
+      <a href="#" class="d-flex align-items-center flex-row-reverse text-decoration-none p-6 border-bottom-xs">
+        <div class="d-flex align-items-center justify-content-between bg-cyan p-4 circle shadow-sm">
+          <i class="fa fa-home text-white"></i>
+        </div>
+        <span class="text-cyan mr-4">Home</span>
+      </a>
+      <a href="#" class="d-flex align-items-center flex-row-reverse text-decoration-none p-6 border-bottom-xs">
+        <div class="d-flex align-items-center justify-content-between bg-primary p-4 circle shadow-sm">
+          <i class="fa fa-home text-white"></i>
+        </div>
+        <span class="text-primary mr-4">Store</span>
+      </a>
+      <a href="#" class="d-flex align-items-center flex-row-reverse text-decoration-none p-6 border-bottom-xs">
+        <div class="d-flex align-items-center justify-content-between bg-lime p-4 circle shadow-sm">
+          <i class="fa fa-home text-white"></i>
+        </div>
+        <span class="text-lime mr-4">Courses</span>
+      </a>
+      <a href="#" class="d-flex align-items-center flex-row-reverse text-decoration-none p-6">
+        <div class="d-flex align-items-center justify-content-between bg-warning p-4 circle shadow-sm">
+          <i class="fa fa-home text-white"></i>
+        </div>
+        <span class="text-warning mr-4">Blog</span>
+      </a>
+
+    </div>
 
 
-</header> 
+  </header>
 
-<!-- Top Slider -->
-<section class="overflow-hidden">
+  <!-- Top Slider -->
+  <section class="overflow-hidden">
     <figure class="d-flex position-relative slider-width slider-animation">
-       <div class="slider-container position-relative">
-         <div class="position-absolute centerXY bg-dark-transparent text-border text-center p-4">
-           <h1>School Website</h1>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-         </div>
-       <img src="images/Slider/img-1.jpg" class="slide-image" alt="Chilrden at school">
+      <div class="slider-container position-relative">
+        <div class="position-absolute centerXY bg-dark-transparent text-border text-center p-4">
+          <h1>School Website</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+        <img src="images/Slider/img-1.jpg" class="slide-image" alt="Chilrden at school">
 
-</div>
-<div class="slider-container position-relative">
-  <div class="position-absolute centerXY bg-dark-transparent text-border text-center p-4">
-    <h1>School Website</h1>
-    <p>Ipsum dolor sit amet consectetur adipisicing elit.
-  </div>
-<img src="images/Slider/img-2.jpg" class="slide-image" alt="Chilrden at school">
+      </div>
+      <div class="slider-container position-relative">
+        <div class="position-absolute centerXY bg-dark-transparent text-border text-center p-4">
+          <h1>School Website</h1>
+          <p>Ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+        <img src="images/Slider/img-2.jpg" class="slide-image" alt="Chilrden at school">
 
-</div>
-<div class="slider-container position-relative">
-  <div class="position-absolute centerXY bg-dark-transparent text-border text-center p-4">
-    <h1>School Website</h1>
-    <p>Dolor sit amet consectetur adipisicing elit.
-  </div>
-<img src="images/Slider/img-3.jpg" class="slide-image" alt="Chilrden at school">
+      </div>
+      <div class="slider-container position-relative">
+        <div class="position-absolute centerXY bg-dark-transparent text-border text-center p-4">
+          <h1>School Website</h1>
+          <p>Dolor sit amet consectetur adipisicing elit.
+        </div>
+        <img src="images/Slider/img-3.jpg" class="slide-image" alt="Chilrden at school">
 
-</div>
-<div class="slider-container position-relative">
-  <div class="position-absolute centerXY bg-dark-transparent text-border text-center p-4">
-    <h1>School Website</h1>
-    <p>Sit amet consectetur adipisicing elit.
-  </div>
-<img src="images/Slider/img-4.jpg" class="slide-image" alt="Chilrden at school">
+      </div>
+      <div class="slider-container position-relative">
+        <div class="position-absolute centerXY bg-dark-transparent text-border text-center p-4">
+          <h1>School Website</h1>
+          <p>Sit amet consectetur adipisicing elit.
+        </div>
+        <img src="images/Slider/img-4.jpg" class="slide-image" alt="Chilrden at school">
 
-</div>
-    </figure> 
+      </div>
+    </figure>
   </section>
 
   <!-- Features Heading -->
   <section class="d-flex justify-content-center align-items-center my-15">
-    <div class="crayon" style="--crayon-color:#b5d56a; --crayon-paper-color:#e4f0cc; --crayon-line-color:#b5d56a;"></div>
+    <div class="crayon" style="--crayon-color:#b5d56a; --crayon-paper-color:#e4f0cc; --crayon-line-color:#b5d56a;">
+    </div>
     <h2 class="mx-4 text-primary">Our Features</h2>
-    <div class="crayon" style="--crayon-color:#b5d56a; --crayon-paper-color:#e4f0cc;--crayon-line-color:#b5d56a;"></div>    
+    <div class="crayon" style="--crayon-color:#b5d56a; --crayon-paper-color:#e4f0cc;--crayon-line-color:#b5d56a;"></div>
   </section>
 
 
   <!-- Features -->
   <section class="d-flex justify-content-center mb-15">
     <div class="d-flex justify-content-between flex-wrap max-width px-12">
-      <!-- Feature --> 
+      <!-- Feature -->
       <div class="d-flex f-width px-4 mb-12">
-        <!-- Circle and Icon --> 
-         <div class="mr-4">
-           <div class="bg-primary circle shadow-lg icon-feature position-relative">
+        <!-- Circle and Icon -->
+        <div class="mr-4">
+          <div class="bg-primary circle shadow-lg icon-feature position-relative">
             <i class="fa fa-graduation-cap text-light text-size-lg centerXY position-absolute"></i>
-           <div class="border-sm icon-circle circle centerXY position-absolute"></div>  
-           </div>
-         </div>
-         <div class="d-flex flex-column">
+            <div class="border-sm icon-circle circle centerXY position-absolute"></div>
+          </div>
+        </div>
+        <div class="d-flex flex-column">
           <h2 class="text-primary lh-lg">Experienced Teachers</h2>
-       <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptate dicta dolorum iure! Architecto adipisci non voluptate harum, error illo, veritatis rerum quas eligendi iusto eveniet excepturi. Doloribus, sit illum.</div>
+          <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptate dicta dolorum iure! Architecto
+            adipisci non voluptate harum, error illo, veritatis rerum quas eligendi iusto eveniet excepturi. Doloribus,
+            sit illum.</div>
         </div>
       </div>
-            <!-- Feature --> 
-            <div class="d-flex f-width px-4 mb-12">
-              <!-- Circle and Icon --> 
-               <div class="mr-4">
-                 <div class="bg-purp circle shadow-lg icon-feature position-relative">
-                  <i class="fa fa-graduation-cap text-light text-size-lg centerXY position-absolute"></i>
-                 <div class="border-sm icon-circle circle centerXY position-absolute"></div>  
-                 </div>
-               </div>
-               <div class="d-flex flex-column">
-                <h2 class="text-purp lh-lg">Experienced Teachers</h2>
-             <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptate dicta dolorum iure! Architecto adipisci non voluptate harum, error illo, veritatis rerum quas eligendi iusto eveniet excepturi. Doloribus, sit illum.</div>
-              </div>
-            </div>
-                  <!-- Feature --> 
+      <!-- Feature -->
       <div class="d-flex f-width px-4 mb-12">
-        <!-- Circle and Icon --> 
-         <div class="mr-4">
-           <div class="bg-cyan circle shadow-lg icon-feature position-relative">
+        <!-- Circle and Icon -->
+        <div class="mr-4">
+          <div class="bg-purp circle shadow-lg icon-feature position-relative">
             <i class="fa fa-graduation-cap text-light text-size-lg centerXY position-absolute"></i>
-           <div class="border-sm icon-circle circle centerXY position-absolute"></div>  
-           </div>
-         </div>
-         <div class="d-flex flex-column">
+            <div class="border-sm icon-circle circle centerXY position-absolute"></div>
+          </div>
+        </div>
+        <div class="d-flex flex-column">
+          <h2 class="text-purp lh-lg">Experienced Teachers</h2>
+          <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptate dicta dolorum iure! Architecto
+            adipisci non voluptate harum, error illo, veritatis rerum quas eligendi iusto eveniet excepturi. Doloribus,
+            sit illum.</div>
+        </div>
+      </div>
+      <!-- Feature -->
+      <div class="d-flex f-width px-4 mb-12">
+        <!-- Circle and Icon -->
+        <div class="mr-4">
+          <div class="bg-cyan circle shadow-lg icon-feature position-relative">
+            <i class="fa fa-graduation-cap text-light text-size-lg centerXY position-absolute"></i>
+            <div class="border-sm icon-circle circle centerXY position-absolute"></div>
+          </div>
+        </div>
+        <div class="d-flex flex-column">
           <h2 class="text-cyan lh-lg">Experienced Teachers</h2>
-       <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptate dicta dolorum iure! Architecto adipisci non voluptate harum, error illo, veritatis rerum quas eligendi iusto eveniet excepturi. Doloribus, sit illum.</div>
+          <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptate dicta dolorum iure! Architecto
+            adipisci non voluptate harum, error illo, veritatis rerum quas eligendi iusto eveniet excepturi. Doloribus,
+            sit illum.</div>
         </div>
       </div>
-            <!-- Feature --> 
-            <div class="d-flex f-width px-4">
-              <!-- Circle and Icon --> 
-               <div class="mr-4">
-                 <div class="bg-lime circle shadow-lg icon-feature position-relative">
-                  <i class="fa fa-graduation-cap text-light text-size-lg centerXY position-absolute"></i>
-                 <div class="border-sm icon-circle circle centerXY position-absolute"></div>  
-                 </div>
-               </div>
-               <div class="d-flex flex-column">
-                <h2 class="text-lime lh-lg">Experienced Teachers</h2>
-             <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptate dicta dolorum iure! Architecto adipisci non voluptate harum, error illo, veritatis rerum quas eligendi iusto eveniet excepturi. Doloribus, sit illum.</div>
-              </div>
-            </div>
-                  <!-- Feature --> 
+      <!-- Feature -->
       <div class="d-flex f-width px-4">
-        <!-- Circle and Icon --> 
-         <div class="mr-4">
-           <div class="bg-warning circle shadow-lg icon-feature position-relative">
+        <!-- Circle and Icon -->
+        <div class="mr-4">
+          <div class="bg-lime circle shadow-lg icon-feature position-relative">
             <i class="fa fa-graduation-cap text-light text-size-lg centerXY position-absolute"></i>
-           <div class="border-sm icon-circle circle centerXY position-absolute"></div>  
-           </div>
-         </div>
-         <div class="d-flex flex-column">
-          <h2 class="text-warning lh-lg">Experienced Teachers</h2>
-       <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptate dicta dolorum iure! Architecto adipisci non voluptate harum, error illo, veritatis rerum quas eligendi iusto eveniet excepturi. Doloribus, sit illum.</div>
+            <div class="border-sm icon-circle circle centerXY position-absolute"></div>
+          </div>
+        </div>
+        <div class="d-flex flex-column">
+          <h2 class="text-lime lh-lg">Experienced Teachers</h2>
+          <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptate dicta dolorum iure! Architecto
+            adipisci non voluptate harum, error illo, veritatis rerum quas eligendi iusto eveniet excepturi. Doloribus,
+            sit illum.</div>
         </div>
       </div>
-            <!-- Feature --> 
-            <div class="d-flex f-width px-4">
-              <!-- Circle and Icon --> 
-               <div class="mr-4">
-                 <div class="bg-danger circle shadow-lg icon-feature position-relative">
-                  <i class="fa fa-graduation-cap text-light text-size-lg centerXY position-absolute"></i>
-                 <div class="border-sm icon-circle circle centerXY position-absolute"></div>  
-                 </div>
-               </div>
-               <div class="d-flex flex-column">
-                <h2 class="text-danger lh-lg">Experienced Teachers</h2>
-             <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptate dicta dolorum iure! Architecto adipisci non voluptate harum, error illo, veritatis rerum quas eligendi iusto eveniet excepturi. Doloribus, sit illum.</div>
-              </div>
-            </div>
+      <!-- Feature -->
+      <div class="d-flex f-width px-4">
+        <!-- Circle and Icon -->
+        <div class="mr-4">
+          <div class="bg-warning circle shadow-lg icon-feature position-relative">
+            <i class="fa fa-graduation-cap text-light text-size-lg centerXY position-absolute"></i>
+            <div class="border-sm icon-circle circle centerXY position-absolute"></div>
+          </div>
+        </div>
+        <div class="d-flex flex-column">
+          <h2 class="text-warning lh-lg">Experienced Teachers</h2>
+          <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptate dicta dolorum iure! Architecto
+            adipisci non voluptate harum, error illo, veritatis rerum quas eligendi iusto eveniet excepturi. Doloribus,
+            sit illum.</div>
+        </div>
+      </div>
+      <!-- Feature -->
+      <div class="d-flex f-width px-4">
+        <!-- Circle and Icon -->
+        <div class="mr-4">
+          <div class="bg-danger circle shadow-lg icon-feature position-relative">
+            <i class="fa fa-graduation-cap text-light text-size-lg centerXY position-absolute"></i>
+            <div class="border-sm icon-circle circle centerXY position-absolute"></div>
+          </div>
+        </div>
+        <div class="d-flex flex-column">
+          <h2 class="text-danger lh-lg">Experienced Teachers</h2>
+          <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptate dicta dolorum iure! Architecto
+            adipisci non voluptate harum, error illo, veritatis rerum quas eligendi iusto eveniet excepturi. Doloribus,
+            sit illum.</div>
+        </div>
+      </div>
     </div>
 
   </section>
 
-<section class="p-15 bg-primary">
- <div class="d-flex flex-column justify-content-center align-items-center text-white">
-     <h1 class="mb-6">Need more information?</h1>
-     <div class="mb-12">Lorem ipsum dolor sit amet, consectetur adipisicing</div>
-       <button class="btn-danger text-white p-8 text-size-lg text-uppercase border-transparent shadow-lg border-radius">
-       <i class="fa fa-phone"></i>
+  <section class="p-15 bg-primary">
+    <div class="d-flex flex-column justify-content-center align-items-center text-white">
+      <h1 class="mb-6">Need more information?</h1>
+      <div class="mb-12">Lorem ipsum dolor sit amet, consectetur adipisicing</div>
+      <button class="btn-danger text-white p-8 text-size-lg text-uppercase border-transparent shadow-lg border-radius">
+        <i class="fa fa-phone"></i>
         Contact
       </button>
-</div>
+    </div>
 
-</section>
-  
-<!-- Image Gallery Heading -->
-  <section class="d-flex justify-content-center align-items-center mt-15 mb-10">
-    <div class="crayon" style="--crayon-color:#ce5e2a; --crayon-paper-color:#d196bf; --crayon-line-color:#ce5e2a;"></div>
-    <h2 class="mx-4 text-danger">Image Gallery</h2>
-    <div class="crayon" style="--crayon-color:#ce5e2a; --crayon-paper-color:#d196bf;--crayon-line-color:#ce5e2a;"></div>    
   </section>
-<!-- Image Gallery -->
-<section class="d-flex justify-content-center align-items-center">
-<!-- Images -->
-<div class="d-flex justify-content-center flex-wrap">
-<img src="images/gallery/gallery-img1.jpg" class="border-radius m-6" alt="Image of children at school">
-<img src="images/gallery/gallery-img2.jpg" class="border-radius m-6" alt="Image of children at school">
-<img src="images/gallery/gallery-img3.jpg" class="border-radius m-6" alt="Image of children at school">
-<img src="images/gallery/gallery-img4.jpg" class="border-radius m-6" alt="Image of children at school">
-<img src="images/gallery/gallery-img5.jpg" class="border-radius m-6" alt="Image of children at school">
-<img src="images/gallery/gallery-img6.jpg" class="border-radius m-6" alt="Image of children at school">
-<img src="images/gallery/gallery-img7.jpg" class="border-radius m-6" alt="Image of children at school">
-<img src="images/gallery/gallery-img8.jpg" class="border-radius m-6" alt="Image of children at school">
-</div>
-</section>
 
-<!-- Teachers -->
-<div class="bg-purp my-15 px-12">
-<!-- Teachers Heading -->
-   <section class="d-flex justify-content-center align-items-center mt-4 mb-10">
-     <div class="crayon" style="--crayon-color:#f09f7a; --crayon-paper-color:#ffceb7; --crayon-line-color:#f09f7a;"></div>
-       <h2 class="mx-4 text-warning">Our Teachers</h2>
-    <div class="crayon" style="--crayon-color:#f09f7a; --crayon-paper-color:#ffceb7;--crayon-line-color:#f09f7a;"></div>    
-   </section>
-   
-   <!-- Our Teachers -->
-     <div class="d-flex flex-wrap justify-content-around text-white max-width mx-auto">
-       <div class="d-flex flex-column align-items-center m-6">
+  <!-- Image Gallery Heading -->
+  <section class="d-flex justify-content-center align-items-center mt-15 mb-10">
+    <div class="crayon" style="--crayon-color:#ce5e2a; --crayon-paper-color:#d196bf; --crayon-line-color:#ce5e2a;">
+    </div>
+    <h2 class="mx-4 text-danger">Image Gallery</h2>
+    <div class="crayon" style="--crayon-color:#ce5e2a; --crayon-paper-color:#d196bf;--crayon-line-color:#ce5e2a;"></div>
+  </section>
+  <!-- Image Gallery -->
+  <section class="d-flex justify-content-center align-items-center">
+    <!-- Images -->
+    <div class="d-flex justify-content-center flex-wrap">
+      <img src="images/gallery/gallery-img1.jpg" class="border-radius m-6" alt="Image of children at school">
+      <img src="images/gallery/gallery-img2.jpg" class="border-radius m-6" alt="Image of children at school">
+      <img src="images/gallery/gallery-img3.jpg" class="border-radius m-6" alt="Image of children at school">
+      <img src="images/gallery/gallery-img4.jpg" class="border-radius m-6" alt="Image of children at school">
+      <img src="images/gallery/gallery-img5.jpg" class="border-radius m-6" alt="Image of children at school">
+      <img src="images/gallery/gallery-img6.jpg" class="border-radius m-6" alt="Image of children at school">
+      <img src="images/gallery/gallery-img7.jpg" class="border-radius m-6" alt="Image of children at school">
+      <img src="images/gallery/gallery-img8.jpg" class="border-radius m-6" alt="Image of children at school">
+    </div>
+  </section>
+
+  <!-- Teachers -->
+  <section class="bg-purp my-15 px-12">
+    <!-- Teachers Heading -->
+    <section class="d-flex justify-content-center align-items-center mt-4 mb-10">
+      <div class="crayon" style="--crayon-color:#f09f7a; --crayon-paper-color:#ffceb7; --crayon-line-color:#f09f7a;">
+      </div>
+      <h2 class="mx-4 text-warning">Our Teachers</h2>
+      <div class="crayon" style="--crayon-color:#f09f7a; --crayon-paper-color:#ffceb7;--crayon-line-color:#f09f7a;">
+      </div>
+    </section>
+
+    <!-- Our Teachers -->
+    <div class="d-flex flex-wrap justify-content-around text-white max-width mx-auto">
+      <div class="d-flex flex-column align-items-center m-6">
         <img src="images/avatars/avatar-1.jpg" class="circle" alt="Teacher">
-         <div>Mrs. Smith</div>
+        <div>Mrs. Smith</div>
       </div>
       <div class="d-flex flex-column align-items-center m-6">
         <img src="images/avatars/avatar-2.jpg" class="circle" alt="Teacher">
-         <div>Mrs. Anna</div>
+        <div>Mrs. Anna</div>
       </div>
       <div class="d-flex flex-column align-items-center m-6">
         <img src="images/avatars/avatar-3.jpg" class="circle" alt="Teacher">
-         <div>Mr. Jones</div>
+        <div>Mr. Jones</div>
       </div>
       <div class="d-flex flex-column align-items-center m-6">
         <img src="images/avatars/avatar-4.jpg" class="circle" alt="Teacher">
-         <div>Ms. Maria</div>
+        <div>Ms. Maria</div>
       </div>
     </div>
 
-</div>
+  </section>
 
+  <!-- Our Classes Heading -->
+  <section class="d-flex justify-content-center align-items-center mt-15 mb-10">
+    <div class="crayon" style="--crayon-color:#ce2ac6; --crayon-paper-color:#e2c7da; --crayon-line-color:#ce2ac6;">
+    </div>
+    <h2 class="mx-4 text-danger">Our Classes</h2>
+    <div class="crayon" style="--crayon-color:#ce2ac6; --crayon-paper-color:#e2c7da;--crayon-line-color:#ce2ac6;"></div>
+  </section>
+
+  <!-- Our Classes -->
+  <section class="mb-15">
+    <!-- Our Classes Container -->
+    <div class="d-flex justify-content-center text-white max-width mx-auto flex-wrap">
+  <!-- Classes card -->
+  <div class="d-flex position-relative overflow-hidden border-radius m-6 card-width">
+    <img src="/images/events/events-img1.jpg" class="img-lg-width" alt="Children at school">
+    <div class="d-flex flex-column bg-info p-6">
+        <h2 class="mb-6"> Lorem ipsum dolor</h2>
+        <div><i class="far fa-calendar-alt mr-4 mb-4"></i>Age 2 to 4 Years</div>
+        <div><i class="far fa-clock mr-4 mr-4 mb-10"></i>9:00AM-11:00AM</div>
+        <div class="mb-10">Ipsum dolor sit amet consectetur adipisicing elit. Accusantium maiores eveniet optio iusto molestias sunt.
+        </div>
+        <a class="btn-warning text-size-lg text-uppercase text-center border-radius shadow-lg p-4 mb-4">Learn more</a>
+    </div>
+        <div class="d-flex flex-column justify-content-center align-items-center bg-info position-absolute m-6 p-4 text-bold text-size-xs lh-md border-radius">
+          <div>29</div>
+          <div>April</div>
+        </div>
+      </div>
+        <!-- Classes card -->
+  <div class="d-flex position-relative overflow-hidden border-radius m-6 card-width">
+    <img src="/images/events/events-img2.jpg" class="img-lg-width" alt="Children at school">
+    <div class="d-flex flex-column bg-lime p-6">
+        <h2 class="mb-6"> Lorem ipsum dolor</h2>
+        <div><i class="far fa-calendar-alt mr-4 mb-4"></i>Age 2 to 4 Years</div>
+        <div><i class="far fa-clock mr-4 mr-4 mb-10"></i>9:00AM-11:00AM</div>
+        <div class="mb-10">Ipsum dolor sit amet consectetur adipisicing elit. Accusantium maiores eveniet optio iusto molestias sunt.
+        </div>
+        <a class="btn-warning text-size-lg text-uppercase text-center border-radius shadow-lg p-4 mb-4">Learn more</a>
+    </div>
+        <div class="d-flex flex-column justify-content-center align-items-center bg-lime position-absolute m-6 p-4 text-bold text-size-xs lh-md border-radius">
+          <div>04</div>
+          <div>Jan</div>
+        </div>
+      </div>
+             <!-- Classes card -->
+  <div class="d-flex position-relative overflow-hidden border-radius m-6 card-width">
+    <img src="/images/events/events-img3.jpg" class="img-lg-width" alt="Children at school">
+    <div class="d-flex flex-column bg-primary p-6">
+        <h2 class="mb-6"> Lorem ipsum dolor</h2>
+        <div><i class="far fa-calendar-alt mr-4 mb-4"></i>Age 2 to 4 Years</div>
+        <div><i class="far fa-clock mr-4 mr-4 mb-10"></i>9:00AM-11:00AM</div>
+        <div class="mb-10">Ipsum dolor sit amet consectetur adipisicing elit. Accusantium maiores eveniet optio iusto molestias sunt.
+        </div>
+        <a class="btn-warning text-size-lg text-uppercase text-center border-radius shadow-lg p-4 mb-4">Learn more</a>
+    </div>
+        <div class="d-flex flex-column justify-content-center align-items-center bg-primary position-absolute m-6 p-4 text-bold text-size-xs lh-md border-radius">
+          <div>15</div>
+          <div>Nov</div>
+        </div>
+      </div>
+                   <!-- Classes card -->
+  <div class="d-flex position-relative overflow-hidden border-radius m-6 card-width">
+    <img src="/images/events/events-img3.jpg" class="img-lg-width" alt="Children at school">
+    <div class="d-flex flex-column bg-purp p-6">
+        <h2 class="mb-6"> Lorem ipsum dolor</h2>
+        <div><i class="far fa-calendar-alt mr-4 mb-4"></i>Age 2 to 4 Years</div>
+        <div><i class="far fa-clock mr-4 mr-4 mb-10"></i>9:00AM-11:00AM</div>
+        <div class="mb-10">Ipsum dolor sit amet consectetur adipisicing elit. Accusantium maiores eveniet optio iusto molestias sunt.
+        </div>
+        <a class="btn-warning text-size-lg text-uppercase text-center border-radius shadow-lg p-4 mb-4">Learn more</a>
+    </div>
+        <div class="d-flex flex-column justify-content-center align-items-center bg-purp position-absolute m-6 p-4 text-bold text-size-xs lh-md border-radius">
+          <div>18</div>
+          <div>Feb</div>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>

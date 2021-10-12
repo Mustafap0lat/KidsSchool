@@ -2,6 +2,7 @@
 ***** Widths ****
 *****************/
 .max-width{max-width: 192rem;}
+.card-width{max-width: 60rem;}
 
 /*****************
 ***** Position****
@@ -55,7 +56,7 @@
 .p-5{padding: var(--distance-5);}
 .p-6{padding: var(--distance-6);}
 .p-8{padding: var(--distance-8);}
-.p-12{padding: var(--distance-13);}
+.p-12{padding: var(--distance-12);}
 .p-15{padding: var(--distance-15);}
 
 .pr-4, .px-4{padding-right: var(--distance-4);} /*Paddings för höger/vänster på sidan, px-12 lägger in dom i en och ger vänster/höger marginal i en class istället*/
@@ -69,6 +70,8 @@
 .text-decoration-none{text-decoration: none;}
 .text-center{text-align: center;} /*Förskjuter texten så den blir centrerad, Kolla "School Website texten" */
 .text-uppercase{text-transform: uppercase;} /*Formaterar texten till stora bokstäver*/
+.text-bold {font-weight: bold;}
+
 .text-size-xxs{font-size: var(--display--xxs);}
 .text-size-xs{font-size: var(--display--xs);}
 .text-size-sm{font-size: var(--display--sm);}
@@ -95,9 +98,9 @@ padding: var(--distance-1) var(--distance-3);} /*gör så att "3an" hamnar upp i
 ****** Borders *****
 ********************/
 .border-small-white{border: var(--border-xs-white);}
-.border-radius{border-radius:var(--border-radius-sm)}/*Gör så att fyrkants ikonen på shoppingcart får rundande kanter.*/
+.border-radius{border-radius:var(--border-radius-sm);}/*Gör så att fyrkants ikonen på shoppingcart får rundande kanter.*/
 .border-botttom-xs{border-bottom: var(--border-xs);} /*Gör så att ikonerna till höger får en bottom så dom inte krockar med varandra*/
-.border-sm {border: var(--border-sm) ;}
+.border-sm {border: var(--border-sm);}
 .border-transparent{border: var(--border-transparent);}
 
 /*******************
@@ -121,6 +124,8 @@ padding: var(--distance-1) var(--distance-3);} /*gör så att "3an" hamnar upp i
 ***** Images *****
 *****************/
 .logo-width {max-width: 13rem;}
+.img-lg-width{max-width: 60%;} /*Ger en bild en mindre storlek*/
+
 
 /*****************
 *** Slideshow ****
